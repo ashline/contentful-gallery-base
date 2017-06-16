@@ -1,0 +1,29 @@
+{
+  "name": "contentful-gallery-base",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "contentful": "^4.4.3",
+    "react": "^15.6.1",
+    "react-css-modules": "3.7.9",
+    "react-dom": "^15.6.1",
+    "react-image-gallery": "^0.8.2",
+    "react-modal": "1.4.0",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.3.0",
+    "redux-thunk": "2.1.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./src react-scripts start",
+    "build": "NODE_PATH=./src react-scripts build",
+    "test": "NODE_PATH=./src react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
